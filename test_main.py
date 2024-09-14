@@ -12,7 +12,7 @@ def test_read():
     df = read_dataset(
         "https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv"
     )
-    assert type(df) == pd.DataFrame
+    assert type(df) is pd.DataFrame
 
 
 def test_summary():
