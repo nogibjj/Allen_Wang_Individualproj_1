@@ -34,7 +34,8 @@ def test_visualization():
     create_save_visualization_for_all(file_path)
     describe=df_describe(file_path)
     for column in describe.columns:
-        assert os.path.isfile(column+ "_distribution.png")
+        column_name = column.replace("/", "_")
+        assert os.path.isfile(column_name+ "_distribution.png")
 
 if __name__ == "__main__":
     test_statistics_report()
