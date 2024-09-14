@@ -55,7 +55,6 @@ def test_visualization():
         assert os.path.isfile(column_name + "_distribution.png")
 
 
-
 if __name__ == "__main__":
     test_read()
     test_summary()
