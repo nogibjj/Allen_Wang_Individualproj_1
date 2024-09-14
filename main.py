@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from ydata_profiling import ProfileReport
-import html2text
 
 
 def read_dataset(file_path):
@@ -40,9 +39,18 @@ def create_save_visualization(df, column_name, save_filename=None, show=False):
 def generate_html_report(df, title):
     profile = ProfileReport(df, title=title, explorative=True)
     profile.to_file(title + ".html")
-    converter = html2text.HTML2Text()
-    with open(title + ".html", "r", encoding="utf-8") as file:
-        html_content = file.read()
-    markdown_content = converter.handle(html_content)
+    summary_stats, mean_values, median_values, std_dev = generate_summary_statistics(df)
     with open(title + ".md", "w", encoding="utf-8") as file:
-        file.write(markdown_content)
+        file.write("Summary:\n")
+        file.write(summary_stats.to_markdown()+"\n\n")
+        file.write("Mean:\n")
+        file.write(mean_values.to_markdown()+"\n\n")
+        file.write("Median:\n")
+        file.write(median_values.to_markdown()+"\n\n")
+        file.write("Standard Deviation:\n")
+        file.write(std_dev.to_markdown()+"\n\n")       
+        file.write("![image1](Age_distribution.png)\n")
+        file.write("\n\n")
+        file.write("![image2](Fare_distribution.png)\n")
+        file.write("\n\n")
+        file.write("![image3](Pclass_distribution.png)\n")

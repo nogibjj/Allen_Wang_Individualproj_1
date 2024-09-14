@@ -4,9 +4,8 @@ install:
 format: 
 	black *.py
 
-lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py $(wildcard *.py)
-
+lint: # pylint --disable=R,C --ignore-patterns=test_.*?py $(wildcard *.py)
+	ruff check *.py
 test: 
 	python -m pytest -cov=main test_main.py --disable-warnings
 
