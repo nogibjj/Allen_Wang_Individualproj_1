@@ -47,10 +47,10 @@ Alerts
   
 Reproduction
 
-Analysis started| 2024-09-11 20:57:56.624937  
+Analysis started| 2024-09-13 22:35:38.601038  
 ---|---  
-Analysis finished| 2024-09-11 20:58:02.549527  
-Duration| 5.92 seconds  
+Analysis finished| 2024-09-13 22:35:44.643980  
+Duration| 6.04 seconds  
 Software version| [ydata-profiling vv4.10.0](https://github.com/ydataai/ydata-
 profiling)  
 Download configuration|
@@ -133,14 +133,14 @@ Value| Count| Frequency (%)
   
 #### Length
 
-2024-09-11T20:58:02.608912image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:44.704582image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 Histogram of lengths of the category
 
 #### Common Values (Plot)
 
-2024-09-11T20:58:02.703702image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:44.801088image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 Value| Count| Frequency (%)  
@@ -277,14 +277,14 @@ Value| Count| Frequency (%)
   
 #### Length
 
-2024-09-11T20:58:02.802280image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:44.903828image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 Histogram of lengths of the category
 
 #### Common Values (Plot)
 
-2024-09-11T20:58:02.899117image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:45.003071image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 Value| Count| Frequency (%)  
@@ -366,7 +366,7 @@ Missing| 0
 Missing (%)| 0.0%  
 Memory size| 71.4 KiB  
   
-2024-09-11T20:58:03.131709image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:45.235292image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 More details
@@ -429,7 +429,7 @@ charles | 23|    0.7%
 george | 22|    0.6%   
 Other values (1482) | 2468|  69.8%   
   
-2024-09-11T20:58:03.541937image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:45.648046image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
   * Characters
@@ -597,14 +597,14 @@ female | 314|  35.4%
   
 #### Length
 
-2024-09-11T20:58:03.682288image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:45.788528image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 Histogram of lengths of the category
 
 #### Common Values (Plot)
 
-2024-09-11T20:58:03.793122image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:45.897685image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 Value| Count| Frequency (%)  
@@ -702,7 +702,7 @@ Negative| 0
 Negative (%)| 0.0%  
 Memory size| 7.1 KiB  
   
-2024-09-11T20:58:03.907483image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:46.012954image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 More details
@@ -738,7 +738,7 @@ Sum| 26141.17
 Variance| 199.4283  
 Monotonicity| Not monotonic  
   
-2024-09-11T20:58:04.052430image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:46.161385image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 **Histogram with fixed size bins** (bins=50)
@@ -809,7 +809,7 @@ Negative| 0
 Negative (%)| 0.0%  
 Memory size| 7.1 KiB  
   
-2024-09-11T20:58:04.173391image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:46.283410image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 More details
@@ -845,7 +845,7 @@ Sum| 466
 Variance| 1.2202926  
 Monotonicity| Not monotonic  
   
-2024-09-11T20:58:04.276679image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:46.388182image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 **Histogram with fixed size bins** (bins=7)
@@ -906,7 +906,7 @@ Negative| 0
 Negative (%)| 0.0%  
 Memory size| 7.1 KiB  
   
-2024-09-11T20:58:04.375120image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:46.487685image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 More details
@@ -942,7 +942,7 @@ Sum| 340
 Variance| 0.65200119  
 Monotonicity| Not monotonic  
   
-2024-09-11T20:58:04.475909image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:46.589506image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 **Histogram with fixed size bins** (bins=7)
@@ -1003,7 +1003,7 @@ Negative| 0
 Negative (%)| 0.0%  
 Memory size| 7.1 KiB  
   
-2024-09-11T20:58:04.714406image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:46.834875image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 More details
@@ -1039,7 +1039,7 @@ Sum| 28654.908
 Variance| 2478.2515  
 Monotonicity| Not monotonic  
   
-2024-09-11T20:58:04.859674image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:46.978796image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 **Histogram with fixed size bins** (bins=50)
@@ -1099,33 +1099,16 @@ Value| Count| Frequency (%)
   * Siblings/Spouses Aboard
   * Parents/Children Aboard
 
-2024-09-11T20:58:01.953167image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:44.040571image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
-2024-09-11T20:57:56.775567image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:38.752933image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
-2024-09-11T20:57:57.183545image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:39.172775image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
-2024-09-11T20:58:01.398063image/svg+xmlMatplotlib v3.9.2,
-https://matplotlib.org/
-
-  * Fare
-  * Age
-  * Siblings/Spouses Aboard
-  * Parents/Children Aboard
-
-2024-09-11T20:58:02.050996image/svg+xmlMatplotlib v3.9.2,
-https://matplotlib.org/
-
-2024-09-11T20:57:56.870806image/svg+xmlMatplotlib v3.9.2,
-https://matplotlib.org/
-
-2024-09-11T20:57:57.255923image/svg+xmlMatplotlib v3.9.2,
-https://matplotlib.org/
-
-2024-09-11T20:58:01.666580image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:43.467684image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
   * Fare
@@ -1133,16 +1116,16 @@ https://matplotlib.org/
   * Siblings/Spouses Aboard
   * Parents/Children Aboard
 
-2024-09-11T20:58:02.150177image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:44.139761image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
-2024-09-11T20:57:56.980628image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:38.851475image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
-2024-09-11T20:58:01.193019image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:39.246094image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
-2024-09-11T20:58:01.768092image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:43.750216image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
   * Fare
@@ -1150,16 +1133,33 @@ https://matplotlib.org/
   * Siblings/Spouses Aboard
   * Parents/Children Aboard
 
-2024-09-11T20:58:02.243277image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:44.239466image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
-2024-09-11T20:57:57.088166image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:38.965626image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
-2024-09-11T20:58:01.294477image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:43.259305image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
-2024-09-11T20:58:01.862905image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:43.853344image/svg+xmlMatplotlib v3.9.2,
+https://matplotlib.org/
+
+  * Fare
+  * Age
+  * Siblings/Spouses Aboard
+  * Parents/Children Aboard
+
+2024-09-13T22:35:44.335487image/svg+xmlMatplotlib v3.9.2,
+https://matplotlib.org/
+
+2024-09-13T22:35:39.075232image/svg+xmlMatplotlib v3.9.2,
+https://matplotlib.org/
+
+2024-09-13T22:35:43.362091image/svg+xmlMatplotlib v3.9.2,
+https://matplotlib.org/
+
+2024-09-13T22:35:43.949256image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 # Correlations
@@ -1169,7 +1169,7 @@ https://matplotlib.org/
   * Heatmap
   * Table
 
-2024-09-11T20:58:04.946884image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:47.065112image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 | Age| Fare| Parents/Children Aboard| Pclass| Sex| Siblings/Spouses Aboard|
@@ -1188,12 +1188,12 @@ Survived| 0.141| 0.282| 0.155| 0.335| 0.539| 0.186| 1.000
   * Count
   * Matrix
 
-2024-09-11T20:58:02.361619image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:44.457391image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 A simple visualization of nullity by column.
 
-2024-09-11T20:58:02.497315image/svg+xmlMatplotlib v3.9.2,
+2024-09-13T22:35:44.591713image/svg+xmlMatplotlib v3.9.2,
 https://matplotlib.org/
 
 Nullity matrix is a data-dense display which lets you quickly visually pick
