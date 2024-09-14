@@ -5,8 +5,8 @@ format:
 	black *.py
 
 lint: # pylint --disable=R,C --ignore-patterns=test_.*?py $(wildcard *.py)
-	ruff check *.py
+	ruff check *.py mylib/*.py *.ipynb
 test: 
-	python -m pytest -cov=main test_main.py --disable-warnings
+	python -m pytest --nbval -cov=mylib -cov=main test_*.py *.ipynb --disable-warnings
 
 all: install format lint test

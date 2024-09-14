@@ -15,3 +15,5 @@ seaborn
 matplotlib
 ydata-profiling
 ruff
+tabulate
+nbval
