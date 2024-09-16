@@ -5,7 +5,7 @@ import seaborn as sns
 
 def create_save_visualization(df, column_name, save_filename=None, show=False):
     sns.set_theme(style="whitegrid")
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(8, 6), dpi=100)
     sns.histplot(df[column_name], kde=True, color="skyblue", bins=30)
     plt.title(f"{column_name} Distribution", fontsize=16)
     plt.xlabel(column_name, fontsize=12)
