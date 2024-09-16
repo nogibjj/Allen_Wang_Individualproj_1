@@ -24,7 +24,7 @@ def test_statistics_report():
     describe = df_describe(file_path)
     assert type(describe) is pd.DataFrame
     for column in describe.columns:
-        mean_values, median_values, std_dev = statistics_for_column(file_path, column)
+        mean_values, _ , std_dev = statistics_for_column(file_path, column)
         assert describe.loc["mean", column] == mean_values
         # assert describe.loc["median", column] == median_values
         assert describe.loc["std", column] == std_dev
