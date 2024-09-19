@@ -1,6 +1,9 @@
-# Allen_Wang_miniproj_2
+# Allen_Wang_Individualproj_1
 
-[![CI](https://github.com/nogibjj/Allen_Wang_miniproj_2/actions/workflows/CICD.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_miniproj_2/actions/workflows/CICD.yml)
+[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10878492428)
+[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10878492421)
+[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10878492418)
+[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10878492415)
 
 ## Overview
 
