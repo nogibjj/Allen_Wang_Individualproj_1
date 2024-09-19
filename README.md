@@ -1,46 +1,56 @@
 # Allen_Wang_Individualproj_1
 
-[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10878492428)
-[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10878492421)
-[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10878492418)
-[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10878492415)
+[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10936070182)
+[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10936070200)
+[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10936070183)
+[![CI](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Allen_Wang_Individualproj_1/actions/runs/10936070189)
 
 ## Overview
 
-This project includes a Python development environment configured with a `.devcontainer`, a `Makefile` for managing setup, testing, and linting tasks, and a functioning CI/CD pipeline.  The project reads a dataset (CSV or Excel), generates summary statistics, and creates basic data visualizations for the dataset columns.
+This project demonstrates Continuous Integration (CI) using GitLab Actions for a Python Data Science project. It features the use of Pandas for data analysis, nbval for notebook testing, and automated formatting and linting tools integrated into a GitLab CI pipeline. The project performs data analysis, testing, and code quality checks as part of the CI process.
+
 
 ## Features
 - **Descriptive Statistics**: A Python script that:
   - Reads a dataset (CSV or Excel).
   - Generates summary statistics including mean, median, and standard deviation for numeric columns.
   - Creates a histogram for data visualization.
-
+- **Automated Testing**:
+  - Tested using `pytest` with the `nbval` plugin for notebook validation.
+  - Unit tests for scripts and libraries.
+- **CI/CD Pipeline**:
+  - GitLab Actions run all Makefile commands with badges displayed in the README.
+  - The pipeline includes testing, code formatting, packages installing, and linting.
+    
 ## Project Structure
 
-- **.devcontainer/**: Contains configuration for a development container to ensure consistency, portability, and isolation. Includes:
-  - `devcontainer.json`: Configuration file for the development container.
-  - `Dockerfile`: Defines the container image for the development environment.
+- **Jupyter Notebook and main.py**: 
+  - Contains the main code for data analysis.
+  - Executes descriptive statistics using Polars or Pandas.
 
-- **Makefile**: Provides commands for setup, testing, and linting:
-  - `make install`: Installs project dependencies.
-  - `make format`: Formats all Python files in the current directory using Black
-  - `make lint`: Lints all Python files (excluding test files) using Pylint.
-  - `make test`: Runs tests.
-  - `make all`: Runs all the tasks in sequence.
+- **Makefile**: Provides commands for setup, testing, and formatting:
+  - `make install`: Installs project dependencies using `pip install -r requirements.txt`.
+  - `make format`: Formats all Python code using Black.
+  - `make lint`: Lints Python code using Ruff.
+  - `make test`: Runs all tests including notebook and script testing.
 
-- **.github/workflows/ci.yml**: Configures CI/CD pipeline to automatically run setup, linting, and tests.
+- **test_script.py**: Unit tests for the Python script.
 
-- **main.py**: A script for reading a dataset, calculating summary statistics, and generating data visualizations.
+- **test_lib.py**: Unit tests for the project’s Python libraries.
 
-- **README.md**: This file, providing setup and usage instructions.
+- **requirements.txt**: Contains pinned dependencies required for the project.
+
+- **GitLab CI**: Automates the following actions:
+  - Runs all Makefile commands (install, test, lint, format).
+  - Displays badges for each task in the README.
 
 ## Setup
 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/nogibjj/Allen_Wang_miniproj_1.git
-    cd Allen_Wang_miniproj_1
+    git clone https://github.com/nogibjj/Allen_Wang_miniproj_2.git
+    cd Allen_Wang_miniproj_2
     ```
 
 2. **Install dependencies:**
